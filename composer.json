@@ -1,0 +1,33 @@
+{
+    "name": "woyra/woyra-php",
+    "description": "Official PHP SDK for the Woyra email API.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["woyra", "email", "transactional-email", "api", "sdk"],
+    "homepage": "https://docs.woyra.io",
+    "authors": [
+        { "name": "MINAC GROUP LLC" }
+    ],
+    "support": {
+        "docs": "https://docs.woyra.io",
+        "source": "https://github.com/minacgroup/woyra-php",
+        "email": "support@woyra.io"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Woyra\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
